@@ -4,15 +4,15 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 
 ## 현재 버전
 
-- 정식버전: [DawooLISP 2.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v2.0.0)
-- 공개베타: [DawooLISP 2.0.1](https://github.com/leecycle/DAWOO-LISP/releases/tag/v2.0.1)
+- 정식버전: [DawooLISP 4.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v4.0.0)
+- 공개베타: [DawooLISP 4.0.24](https://github.com/leecycle/DAWOO-LISP/releases/tag/v4.0.24)
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
 
-- AutoCAD 2015~2024 (Windows)
+- AutoCAD 2021~2027 (Windows x64, 정규 AutoCAD; CAD 실기 검증 별도)
 - ZWCAD 2024 (Windows)
-- DWVW DLL 빌드 기준: AutoCAD 2021 / ZWCAD 2024 Professional
+- DLL 빌드 기준: AutoCAD 2021~2024 Framework / 2025~2026 .NET 8 / 2027 .NET 10 / ZWCAD 2024 Professional
 
 ## 주요 기능
 
