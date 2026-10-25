@@ -5,7 +5,7 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 ## 현재 버전
 
 - 정식버전: [DawooLISP 4.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v4.0.0)
-- 공개베타: [DawooLISP 4.0.33](https://github.com/leecycle/DAWOO-LISP/releases/tag/v4.0.33)
+- 공개베타: [DawooLISP 4.1.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v4.1.0)
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
@@ -41,6 +41,7 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 - `DWJS` 클릭한 필지의 주소 조회
 - `DWJI` 법정주소 또는 사각영역의 브이월드 연속지적도 삽입
 - `DWJIA` 삽입된 폐합 지적 경계 안의 지번 문자 자동 정리
+- `DWJIS` 지적 경계의 DW_TEXT 속성 조회, 지번 작성·확대 및 검색
 - `DWSHP` 선택한 닫힌 CAD 객체를 폴리곤 SHP 파일로 내보내기
 
 ## 설치 방법
