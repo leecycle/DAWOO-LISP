@@ -4,7 +4,7 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 
 ## 현재 버전
 
-- 정식버전: [DawooLISP 4.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v4.0.0)
+- 정식버전: [DawooLISP 5.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v5.0.0)
 - 공개베타: [DawooLISP 4.1.8](https://github.com/leecycle/DAWOO-LISP/releases/tag/v4.1.8)
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
@@ -161,6 +161,16 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 전체 명령과 사용 방법은 설치 폴더의 `DawooLISP_Help.pdf`에서 확인할 수 있습니다.
 
 ## 버전 이력
+
+### 5.0.0 정식버전
+
+- 테스트한 4.1.8 기능을 정식버전으로 배포하며 기존 창·메뉴·명령 동작을 유지합니다.
+- 공용 CAD .NET 계층과 AutoCAD 2021~2027·ZWCAD 2024의 버전별 Runtime 구성을 적용합니다. 지원 버전별 실제 CAD 검증 여부는 릴리스 안내를 확인하세요.
+- DW_JI 속성 저장과 DW_JIS 선택 자동 조회·지번 검색·작성·확대 기능을 포함합니다.
+- DWVW 취소·실패 시 기존 좌표계 보존, 응답 검증·출력 파일 처리 및 WMF 보완을 포함합니다.
+- 같은 설치 경로의 2.x~5.x 백업을 인식하며 기존 백업 경로와 사용자 업데이트 설정을 유지합니다.
+- 도움말과 version.ini를 5.0.0 정식버전으로 갱신했습니다.
+- [5.0.0 정식 릴리스](https://github.com/leecycle/DAWOO-LISP/releases/tag/v5.0.0)
 
 ### 4.0.0 정식버전
 
