@@ -4,7 +4,7 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 
 ## 현재 버전
 
-- 정식버전: [DawooLISP 5.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v5.0.0)
+- 정식버전: [DawooLISP 5.0.1](https://github.com/leecycle/DAWOO-LISP/releases/tag/v5.0.1)
 - 공개베타: [DawooLISP 4.1.8](https://github.com/leecycle/DAWOO-LISP/releases/tag/v4.1.8)
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
@@ -161,6 +161,13 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 전체 명령과 사용 방법은 설치 폴더의 `DawooLISP_Help.pdf`에서 확인할 수 있습니다.
 
 ## 버전 이력
+
+### 5.0.1 정식버전
+
+- DWVW·WMF 임시 객체 준비 실패 시 객체 정리를 보완했습니다.
+- DWVW 인증키 선택 로직을 공용 CAD .NET 계층으로 옮기고 기존 선택 우선순위를 유지했습니다.
+- 기존 창·아이콘·메뉴·정상 명령 동작을 유지하며 도움말과 version.ini를 정식버전으로 갱신했습니다.
+- [5.0.1 정식 릴리스](https://github.com/leecycle/DAWOO-LISP/releases/tag/v5.0.1)
 
 ### 5.0.0 정식버전
 
