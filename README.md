@@ -5,7 +5,7 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 ## 현재 버전
 
 - 정식버전: [DawooLISP 5.0.1](https://github.com/leecycle/DAWOO-LISP/releases/tag/v5.0.1)
-- 공개베타: [DawooLISP 5.0.10](https://github.com/leecycle/DAWOO-LISP/releases/tag/v5.0.10)
+- 공개베타: [DawooLISP 5.0.11](https://github.com/leecycle/DAWOO-LISP/releases/tag/v5.0.11)
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
