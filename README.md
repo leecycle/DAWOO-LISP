@@ -6,6 +6,7 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 
 - 정식버전: [DawooLISP 5.0.1](https://github.com/leecycle/DAWOO-LISP/releases/tag/v5.0.1)
 - 공개베타: [DawooLISP 5.0.20](https://github.com/leecycle/DAWOO-LISP/releases/tag/v5.0.20)
+- 다음 정식버전: **6.0.0 준비 중** — 컴파일·빌드 확인 후 Latest로 게시합니다.
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
@@ -22,7 +23,9 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 - 거리·축척 계산 및 객체스냅 설정
 - 도면 점검·정리·복구
 - AutoCAD와 ZWCAD 자동 판별 및 전용 컴파일 파일 로드
-- 프로그램 내 자동 업데이트와 이전 버전 복원
+- 프로그램 내 자동 업데이트, ZIP SHA256 검증(5.0.18 이상 Updater) 및 이전 버전 복원
+- 사용자 설정·인증키·백업을 보존하는 삭제 프로그램
+- 실패 경로·원인 기록과 설정·단축키·자동 로더 파일 보존
 - PDF 도움말 및 DawooLISP 메뉴 제공
 
 ### 주요 명령
@@ -49,7 +52,7 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 1. [최신 릴리스](https://github.com/leecycle/DAWOO-LISP/releases)에서 `DawooLISP.*.zip`을 내려받습니다.
 2. ZIP을 완전히 압축 해제합니다.
 3. AutoCAD와 ZWCAD를 모두 종료합니다.
-4. 압축을 푼 폴더에서 `Install.exe`를 실행합니다.
+4. 압축을 푼 폴더에서 `Install.exe`를 일반 실행합니다. 권한 요청이 표시되면 승인합니다.
 5. CAD를 다시 시작합니다.
 6. 명령창에서 `DWOP`을 실행하고 버전정보에서 현재 CAD와 DawooLISP 버전을 확인합니다.
 7. `DWHELP`를 실행하면 PDF 도움말이 열립니다.
@@ -61,12 +64,12 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 설치기는 현재 상태에 따라 다음과 같이 동작합니다.
 
 - 신규 설치: 새 설치 경로가 없으면 시작세트·신뢰 경로·PGP를 등록합니다.
-- 2.x 업데이트: `C:\DAWOO\DAWOO-LISP`가 있으면 기존 CAD 등록과 사용자 UI 배치를 유지합니다.
+- 같은 경로 업데이트(2.x 이상): `C:\DAWOO\DAWOO-LISP`가 있으면 기존 CAD 등록과 사용자 UI 배치를 유지합니다.
 - 1.x 마이그레이션: 새 경로가 없고 `C:\DAWOO\CADLISP\DawooLISP.lsp`가 있으면 DawooLISP의 시작 경로만 새 경로로 연결합니다.
 
 백업은 서로 섞이지 않게 분리합니다.
 
-- 2.x 업데이트: `%LOCALAPPDATA%\DAWOO\DAWOO-LISP\Backup\2.x`
+- 같은 경로 업데이트(2.x 이상): `%LOCALAPPDATA%\DAWOO\DAWOO-LISP\Backup\2.x`
 - 1.x 마이그레이션: `%LOCALAPPDATA%\DAWOO\DAWOO-LISP\Backup\Migration-1.x`
 
 1.x 구버전 폴더는 삭제하거나 덮어쓰지 않습니다. 1.x 백업을 2.x 설치 경로로 자동 복원하지 않으며 DawooCivilLISP와 다른 시작세트 항목도 변경하지 않습니다.
@@ -147,7 +150,11 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 5. 기존 설치 폴더 전체를 백업하고 새 패키지를 검증한 뒤 교체합니다.
 6. 실패하면 전체 백업을 자동으로 복원합니다.
 
-2.x 업데이트는 기존 신뢰 위치, 시작하기 세트, PGP 단축키 및 다른 작업공간을 변경하지 않습니다. 인터넷 연결 오류 안내는 `DWUPDATE`를 실행했을 때만 표시됩니다. 2.0.1 공개베타부터 1.x 기존 사용자는 구 설치 폴더를 보존한 채 DawooLISP 시작 경로만 새 저장소·설치 구조로 이전할 수 있습니다.
+같은 경로 업데이트는 기존 사용자 설정과 작업공간을 보존하면서 필요한 Runtime 신뢰 경로와 프로그램 등록을 보완합니다. 일반 인터넷 연결 오류 안내는 수동 `DWUPDATE`에서 표시하며, ZIP 해시 누락·형식 오류·불일치는 자동/수동 업데이트 모두 설치를 중단하고 원인을 알립니다. SHA256 검증은 5.0.18 이상 Updater에서 적용됩니다. 2.0.1 공개베타부터 1.x 기존 사용자는 구 설치 폴더를 보존한 채 DawooLISP 시작 경로만 새 저장소·설치 구조로 이전할 수 있습니다.
+
+## 삭제
+
+모든 CAD를 종료한 뒤 `C:\DAWOO\DAWOO-LISP\Uninstall.exe`를 일반 실행합니다. 현재 사용자의 DawooLISP 등록과 배포 파일을 정리하며, 사용자 설정·인증키·백업과 수정된 파일은 보존합니다. 다른 Windows 사용자와 DawooCivilLISP 설정은 변경하지 않습니다.
 
 ## 메뉴와 도움말
 
