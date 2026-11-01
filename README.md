@@ -5,7 +5,8 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 ## 현재 버전
 
 - 정식버전: [DawooLISP 6.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.0)
-- 공개베타: [DawooLISP 5.0.20](https://github.com/leecycle/DAWOO-LISP/releases/tag/v5.0.20)
+- 공개베타: [DawooLISP 6.0.1](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.1)
+  - DWOP 초기화 대상 목록과 설정 내보내기·가져오기·선택 명령 초기화 연결을 보완했습니다. 기존 창과 정상 명령 동작은 유지합니다.
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
