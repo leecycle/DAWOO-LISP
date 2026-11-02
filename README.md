@@ -5,8 +5,8 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 ## 현재 버전
 
 - 정식버전: [DawooLISP 6.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.0)
-- 공개베타: [DawooLISP 6.0.3](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.3)
-  - CAD 프로파일별로 필요한 Runtime 신뢰 경로만 등록하고, 불필요한 기존 DawooLISP Runtime 경로만 정리합니다. 사용자·다른 프로그램 경로와 기존 창·정상 명령 동작은 유지합니다.
+- 공개베타: [DawooLISP 6.0.4](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.4)
+  - 일반 창을 닫은 뒤 불필요한 명령 상태 조회를 생략하고, DWJIS 창이 없으면 빈 Idle 처리를 건너뜁니다. 기존 창 구성·명령·실행 대기열·선택 자동 조회는 유지합니다.
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
