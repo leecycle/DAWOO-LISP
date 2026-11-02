@@ -5,8 +5,8 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 ## 현재 버전
 
 - 정식버전: [DawooLISP 6.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.0)
-- 공개베타: [DawooLISP 6.0.5](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.5)
-  - 붙어 있는 DawooLISP Runtime 신뢰 경로를 제한적으로 분리·복원하고, 현재 사용자의 불필요한 `ZDream\2021\AC2021` 정확한 경로만 정리합니다. 다른 사용자 경로와 기존 창·명령 동작은 유지합니다.
+- 공개베타: [DawooLISP 6.0.6](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.6)
+  - DWJIA 글자 크기를 변경하지 않고 확인 버튼으로 이동할 때 불필요한 설명 갱신을 예약하지 않습니다. 기존 창·입력 검증·설정 저장·정상 명령 동작은 유지합니다.
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
