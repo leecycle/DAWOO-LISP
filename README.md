@@ -5,8 +5,8 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 ## 현재 버전
 
 - 정식버전: [DawooLISP 6.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.0)
-- 공개베타: [DawooLISP 6.0.2](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.2)
-  - DWOP 버튼 실행 후 환경설정 창을 유지하고 취소·X로 닫습니다. 백업 폴더 열기는 사용자 `DAWOO\DAWOO-LISP\Backup` 폴더로 이동합니다. 기존 창 구성과 정상 명령 동작은 유지합니다.
+- 공개베타: [DawooLISP 6.0.3](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.3)
+  - CAD 프로파일별로 필요한 Runtime 신뢰 경로만 등록하고, 불필요한 기존 DawooLISP Runtime 경로만 정리합니다. 사용자·다른 프로그램 경로와 기존 창·정상 명령 동작은 유지합니다.
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
@@ -76,7 +76,7 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 
 신규 설치 시 기존 설정을 지우지 않고 다음 항목을 중복 없이 추가합니다.
 
-- `C:\DAWOO\DAWOO-LISP` 신뢰 경로
+- `C:\DAWOO\DAWOO-LISP`와 해당 CAD 버전의 Runtime 신뢰 경로
 - `C:\DAWOO\DAWOO-LISP\DawooLISP.lsp` 시작하기 세트
 - AutoCAD `acad.pgp` 및 ZWCAD `zwcad.pgp` 단축키
 - 현재 CAD에 DawooLISP 메뉴가 없을 때 메뉴 자동 등록
