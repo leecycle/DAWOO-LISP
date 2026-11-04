@@ -5,8 +5,8 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 ## 현재 버전
 
 - 정식버전: [DawooLISP 6.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.0)
-- 공개베타: [DawooLISP 6.0.6](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.6)
-  - DWJIA 글자 크기를 변경하지 않고 확인 버튼으로 이동할 때 불필요한 설명 갱신을 예약하지 않습니다. 기존 창·입력 검증·설정 저장·정상 명령 동작은 유지합니다.
+- 공개베타: [DawooLISP 6.0.7](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.7)
+  - DWSTA 출력 축척을 주석축척 적용(기본) 또는 직접 입력으로 선택합니다. 1000=1배이며 300과 1:300은 모두 0.3배입니다. 측점선·원·문자 높이를 조절하고 실제 거리·문자 폭과 기존 글자 크기·입력칸 높이는 유지합니다.
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
