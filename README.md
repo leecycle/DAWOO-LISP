@@ -5,8 +5,8 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 ## 현재 버전
 
 - 정식버전: [DawooLISP 6.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.0)
-- 공개베타: [DawooLISP 6.0.13](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.13)
-  - 설정창을 열어 둔 채 다른 CAD 명령·리습을 실행할 수 있도록 허용 범위를 넓혔습니다. 실행 중에는 창 버튼을 비활성화하며, ESC는 대기 중 창 닫기·다른 명령 실행 중 해당 명령 취소를 우선합니다. 기존 창 구성과 정상 명령 동작은 유지합니다.
+- 공개베타: [DawooLISP 6.0.14](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.14)
+  - ESC는 Dawoo 창이나 창 안의 입력칸에 포커스가 있을 때만 창을 닫습니다. CAD 화면에서 ESC를 눌러도 창은 유지하며, 다른 CAD 명령·리습 실행 허용과 실행 중 창 버튼 비활성화는 그대로 유지합니다.
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
