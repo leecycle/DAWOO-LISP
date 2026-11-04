@@ -5,8 +5,8 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 ## 현재 버전
 
 - 정식버전: [DawooLISP 6.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.0)
-- 공개베타: [DawooLISP 6.0.11](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.11)
-  - DWSTA 문자 설정 영역의 폭을 줄이고 글자 크기·입력칸 높이·축척 계산은 유지합니다. 제공된 공통 설정 50개와 15개 창 입력값 140개를 새 기본값으로 적용합니다. 첫 설정창 실행 시 기존 저장값도 한 번 교체하며, 이후 수정값은 유지합니다.
+- 공개베타: [DawooLISP 6.0.12](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.12)
+  - DWSTA 적용문자높이 설명·표시칸의 DPI 보정 연결을 보완했습니다. 200% 배율에서 두 항목이 이중 확대되어 오른쪽 영역을 밀어내는 문제를 수정하며, 기존 글자 크기·입력칸 높이·설정·축척 계산은 유지합니다.
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
