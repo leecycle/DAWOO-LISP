@@ -5,8 +5,8 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 ## 현재 버전
 
 - 정식버전: [DawooLISP 6.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.0)
-- 공개베타: [DawooLISP 6.0.17](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.17)
-  - DWJI 원지적선은 `CL-LOTL`, 지번·지목은 `CL-LOTT`, 일반 안내 문자는 `CL-TEXT`에 작성합니다. 없는 지적선·지번 레이어는 노란색(2번)·연속선으로 생성하며 기존 레이어 설정·좌표·속성·창 동작은 유지합니다.
+- 공개베타: [DawooLISP 6.0.18](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.18)
+  - DWJI와 DWJIA 모두 필지 내부에서 경계까지 여유가 큰 위치를 우선 사용합니다. DWJIA 회전·문자 크기·겹침 조정과 기존 창·레이어·속성·정상 명령 동작은 유지합니다.
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
