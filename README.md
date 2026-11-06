@@ -5,8 +5,8 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 ## 현재 버전
 
 - 정식버전: [DawooLISP 6.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.0)
-- 공개베타: [DawooLISP 6.0.19](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.19)
-  - DWNUM·DWJI 하단에 브이월드 자료 다운로드 버튼과 자료 선택 설명을 추가했습니다. 실행 차단 안내에는 CAD 상태 진단 정보를 표시합니다. 기존 실행 안전장치와 정상 동작은 유지하며, DWNUM 실행 차단 원인은 확인 중입니다.
+- 공개베타: [DawooLISP 6.0.20](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.20)
+  - DWJI 하단 다운로드 버튼의 최종 설정 연결을 수정했습니다. 명령명 없이 CMDACTIVE=32만 감지되면 Idle에서 한 번 재확인하고, 대기 상태일 때만 실행합니다. 기존 창·정상 동작·안전장치를 유지하며 실제 CAD 결과는 사용자 확인이 필요합니다.
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
