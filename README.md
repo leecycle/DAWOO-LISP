@@ -4,9 +4,8 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 
 ## 현재 버전
 
-- 정식버전: [DawooLISP 6.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.0)
-- 공개베타: [DawooLISP 6.0.28](https://github.com/leecycle/DAWOO-LISP/releases/tag/v6.0.28)
-  - 설정창 20개와 DWJIS 창 제목에서 명령어 접두어를 제거했습니다. 예: DEF 도면 환경설정 → 도면 환경설정. 창 내부 구성·글자 크기·버튼·설정·정상 명령 동작은 유지합니다.
+- 정식버전: [DawooLISP 7.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.0)
+  - 6.0.28까지의 개선 사항을 정식버전으로 통합했습니다. 설정 가져오기·내보내기는 같은 Backup 폴더를 기본으로 사용하며, 기존 창과 정상 명령 동작은 유지합니다.
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
@@ -164,12 +163,23 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 - `DWRIBBONLOAD`: DawooLISP 리본 표시
 - `DWHELP`: PDF 도움말 열기
 - `DWUPDATE`: 최신 버전 확인 및 업데이트
-- `DWROLLBACK`: 백업된 이전 2.x 버전으로 복원
+- `DWROLLBACK`: 백업된 이전 2.x~7.x 버전으로 복원
 - `DWOP`: 설치 폴더·백업·버전·재로드·업데이트 채널 설정
 
 전체 명령과 사용 방법은 설치 폴더의 `DawooLISP_Help.pdf`에서 확인할 수 있습니다.
 
 ## 버전 이력
+
+### 7.0.0 정식버전
+
+- 설정 가져오기 창도 내보내기와 같은 `%LOCALAPPDATA%\DAWOO\DAWOO-LISP\Backup` 폴더에서 열리도록 수정했습니다.
+
+- 6.0.28까지의 개선 사항을 정식버전으로 통합했습니다. 기존 창 구성과 정상 명령 동작을 유지합니다.
+- 명령 설정창 20개와 DWJIS 창 제목에서 명령어 접두어를 제거했습니다.
+- 기존 ESC 취소 시 임시 객체·파일 정리와 CAD 설정 복원, 공용 Idle 오류 격리를 보완했습니다.
+- 6.0.28까지의 설정 가져오기와 같은 설치 경로의 2.x~7.x 백업 호환을 유지합니다.
+- 도움말과 version.ini를 7.0.0 정식버전으로 갱신했습니다.
+- [7.0.0 정식 릴리스](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.0)
 
 ### 6.0.0 정식버전
 
