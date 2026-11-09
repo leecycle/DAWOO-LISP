@@ -6,8 +6,8 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 
 - 정식버전: [DawooLISP 7.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.0)
   - 6.0.28까지의 개선 사항을 정식버전으로 통합했습니다. 설정 가져오기·내보내기는 같은 Backup 폴더를 기본으로 사용하며, 기존 창과 정상 명령 동작은 유지합니다.
-- 공개베타: [DawooLISP 7.0.1](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.1)
-  - 리본·도구막대·메뉴막대를 기본 설정 → 공간정보 → 도면.편집 → 관리 순으로 통일했습니다. 지정한 4개 항목은 큰 리본 아이콘, 나머지는 세로 3개씩 배치하며 기존 창·아이콘·명령 동작은 유지합니다. 도구막대 표시·다시등록 항목은 세 메뉴에서 제거했습니다. 복원·최신 버전 확인·환경설정·도움말 아이콘은 DawooCivilLISP 디자인으로 통일했습니다. 같은 7.0.1 수정본이므로 기존 7.0.1 사용자는 수정 ZIP을 내려받아 다시 설치해 주세요.
+- 공개베타: [DawooLISP 7.0.2](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.2)
+  - 삭제 시 ZWCAD 사용자 메뉴 파일에 남는 DawooLISP 메뉴 등록을 정리합니다. 메뉴 파일을 백업·검증한 뒤 교체하며, DawooCivilLISP·다른 메뉴와 사용자 설정·인증키·백업은 보존합니다. 기존 창·메뉴 배치·아이콘·정상 명령 동작은 유지합니다.
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
@@ -157,7 +157,7 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 
 ## 삭제
 
-모든 CAD를 종료한 뒤 `C:\DAWOO\DAWOO-LISP\Uninstall.exe`를 일반 실행합니다. 현재 사용자의 DawooLISP 등록과 배포 파일을 정리하며, 사용자 설정·인증키·백업과 수정된 파일은 보존합니다. 다른 Windows 사용자와 DawooCivilLISP 설정은 변경하지 않습니다.
+모든 CAD를 종료한 뒤 `C:\DAWOO\DAWOO-LISP\Uninstall.exe`를 일반 실행합니다. 현재 사용자의 DawooLISP 등록과 배포 파일을 정리하며, 사용자 설정·인증키·백업과 수정된 파일은 보존합니다. 다른 Windows 사용자와 DawooCivilLISP 설정은 변경하지 않습니다. 7.0.2부터 ZWCAD의 사용자 메뉴 파일에 남은 DawooLISP 현재·이전 메뉴 등록도 백업 후 정리합니다. 대상은 `%APPDATA%`와 `%LOCALAPPDATA%`의 `ZWSOFT\ZWCAD` 아래 CUIX이며, 외부 사용자 지정 경로는 변경하지 않습니다.
 
 ## 메뉴와 도움말
 
