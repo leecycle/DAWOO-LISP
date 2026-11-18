@@ -6,8 +6,8 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 
 - 정식버전: [DawooLISP 7.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.0)
   - 6.0.28까지의 개선 사항을 정식버전으로 통합했습니다. 설정 가져오기·내보내기는 같은 Backup 폴더를 기본으로 사용하며, 기존 창과 정상 명령 동작은 유지합니다.
-- 공개베타: [DawooLISP 7.0.2](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.2)
-  - 삭제 시 ZWCAD 사용자 메뉴 파일에 남는 DawooLISP 메뉴 등록을 정리합니다. 메뉴 파일을 백업·검증한 뒤 교체하며, DawooCivilLISP·다른 메뉴와 사용자 설정·인증키·백업은 보존합니다. 기존 창·메뉴 배치·아이콘·정상 명령 동작은 유지합니다.
+- 공개베타: [DawooLISP 7.0.3](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.3)
+  - 삭제 후 남은 DawooLISP 폴더를 전체 백업·검증하고 재설치할 수 있도록 보완했습니다. 사용자 설정·인증키·일반 파일을 유지하며, 새 제품과 이름이 겹치는 기존 파일도 백업에 보존합니다. 기존 창·메뉴·아이콘·정상 명령 동작은 유지합니다.
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
@@ -158,6 +158,10 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 ## 삭제
 
 모든 CAD를 종료한 뒤 `C:\DAWOO\DAWOO-LISP\Uninstall.exe`를 일반 실행합니다. 현재 사용자의 DawooLISP 등록과 배포 파일을 정리하며, 사용자 설정·인증키·백업과 수정된 파일은 보존합니다. 다른 Windows 사용자와 DawooCivilLISP 설정은 변경하지 않습니다. 7.0.2부터 ZWCAD의 사용자 메뉴 파일에 남은 DawooLISP 현재·이전 메뉴 등록도 백업 후 정리합니다. 대상은 `%APPDATA%`와 `%LOCALAPPDATA%`의 `ZWSOFT\ZWCAD` 아래 CUIX이며, 외부 사용자 지정 경로는 변경하지 않습니다.
+
+### 삭제 후 재설치
+
+7.0.3부터 빈 폴더 또는 DawooLISP 설치 식별정보가 남은 폴더에 재설치할 수 있습니다. 남은 폴더 전체를 `%LOCALAPPDATA%\DAWOO\DAWOO-LISP\Backup\Reinstall`에 백업하고 검증한 뒤 진행합니다. 사용자 설정·인증키·일반 파일은 유지하며, 새 제품 파일과 이름이 겹치는 기존 파일은 백업에 보존합니다. 이전 `Icons` 폴더는 `Preserved-Icons-*` 이름으로 보관합니다. 식별되지 않는 다른 폴더와 연결 경로는 계속 차단합니다.
 
 ## 메뉴와 도움말
 
