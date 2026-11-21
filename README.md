@@ -6,8 +6,8 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 
 - 정식버전: [DawooLISP 7.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.0)
   - 6.0.28까지의 개선 사항을 정식버전으로 통합했습니다. 설정 가져오기·내보내기는 같은 Backup 폴더를 기본으로 사용하며, 기존 창과 정상 명령 동작은 유지합니다.
-- 공개베타: [DawooLISP 7.0.6](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.6)
-  - AutoCAD 메뉴 재로드·재등록 시 DawooLISP 도구막대를 강제로 재도킹하지 않도록 보완했습니다. 저장된 위치가 유지되면 그대로 두고, 복원이 어려우면 DawooLISP 도구막대만 떠 있게 합니다. Civil 도구막대와 ZWCAD 처리, 기존 창·정상 명령 동작은 유지합니다.
+- 공개베타: [DawooLISP 7.0.7](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.7)
+  - AutoCAD 도구막대 복원에서 저장 상태가 없거나 현재 도킹된 경우 위치를 건드리지 않도록 보완했습니다. 위치 조회가 불확실할 때도 강제로 분리하지 않으며, 저장·현재 상태가 모두 부동일 때만 부동 좌표를 복원합니다. 강제 재도킹 없이 Civil·ZWCAD 처리와 기존 창·정상 명령 동작을 유지합니다.
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
