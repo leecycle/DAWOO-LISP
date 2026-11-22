@@ -6,8 +6,8 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 
 - 정식버전: [DawooLISP 7.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.0)
   - 6.0.28까지의 개선 사항을 정식버전으로 통합했습니다. 설정 가져오기·내보내기는 같은 Backup 폴더를 기본으로 사용하며, 기존 창과 정상 명령 동작은 유지합니다.
-- 공개베타: [DawooLISP 7.0.11](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.11)
-  - DWSCL 하단을 ‘닫기’ 하나로 정리하고 Enter 계산은 유지했습니다. AutoCAD와 ZWCAD의 DWJJJ 첫 선택 표시와 기존 PEDIT의 3D Join 순서를 보완했습니다. 3D는 끝점이 이어진 열린 폴리선끼리 처리하며, 실제 CAD 결과는 설치 후 확인이 필요합니다. 원점 경로 문자 증상은 원인 확인 중입니다.
+- 공개베타: [DawooLISP 7.0.12](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.12)
+  - DWSCL 닫기 동작을 수정하고 Enter 계산은 유지했습니다. DWJJJ는 3D 및 서로 다른 평면의 직선 폴리선을 XYZ 보존 방식으로 연결하며, 일반 2D는 기존 PEDIT를 유지합니다. V3 테스트는 사용자가 AutoCAD·ZWCAD에서 정상 동작을 확인했습니다. 원점 경로 문자 증상은 원인 확인 중입니다.
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
