@@ -6,8 +6,8 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 
 - 정식버전: [DawooLISP 7.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.0)
   - 6.0.28까지의 개선 사항을 정식버전으로 통합했습니다. 설정 가져오기·내보내기는 같은 Backup 폴더를 기본으로 사용하며, 기존 창과 정상 명령 동작은 유지합니다.
-- 공개베타: [DawooLISP 7.0.8](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.8)
-  - ZWCAD의 VWorld 위성지도 실행 요청을 독립 CAD 명령으로 넘기도록 보완했습니다. 중복 요청·도면 및 설정 변경을 확인하고, 성공 후 화면 맞춤을 유지합니다. 좌표계 정의 호환성과 이미지 리액터 연결을 보완했으며 AutoCAD·기존 창·정상 명령 동작은 유지합니다.
+- 공개베타: [DawooLISP 7.0.9](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.9)
+  - ZWCAD에서 길이가 0인 필지 경계 구간 때문에 DWJI 지번 문자가 누락되는 문제를 보완했습니다. DWNUM 결합 요청을 독립 CAD 명령으로 넘기며, 기존 설정창·검색·결합 함수와 AutoCAD 동작을 유지합니다. 원점 경로 문자 증상은 원인 확인 중입니다.
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
