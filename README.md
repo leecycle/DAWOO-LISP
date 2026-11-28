@@ -6,9 +6,9 @@ DawooLISP는 토목·CAD 실무에서 반복되는 작업을 빠르고 일관되
 
 - 정식버전: [DawooLISP 7.0.0](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.0)
   - 6.0.28까지의 개선 사항을 정식버전으로 통합했습니다. 설정 가져오기·내보내기는 같은 Backup 폴더를 기본으로 사용하며, 기존 창과 정상 명령 동작은 유지합니다.
-- 공개베타: [DawooLISP 7.0.16](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.16)
-  - 시작 로드 실패 시 성공한 모듈은 유지하고 실패한 단계만 재시도하도록 보완했습니다. 명령 단축키 등록의 실제 실패와 결과 기록 누락을 안내합니다.
-  - 업데이트 시 내용이 같은 CUIX의 기존 수정 시각을 보존합니다. 기존 창·명령·도구막대 위치 처리 방식은 유지합니다. 원점 경로 MTEXT와 도구막대 hover 멈춤은 미해결입니다.
+- 공개베타: [DawooLISP 7.0.17](https://github.com/leecycle/DAWOO-LISP/releases/tag/v7.0.17)
+  - 신규·업데이트 설치 모두 기본 단축키 10개(3D 포함) 중 없는 이름만 추가합니다. 이미 지정된 사용자 단축키와 Civil 구역·기존 인코딩을 보존합니다.
+  - 기존 백업·임시 파일 검증 후 교체 방식을 유지하고 실제 추가 개수를 기록합니다. 기존 창·명령·도구막대 위치 처리는 유지합니다. 원점 경로 MTEXT와 도구막대 hover 멈춤은 미해결입니다.
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-LISP`
 
 ## 지원 환경
